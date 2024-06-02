@@ -42,7 +42,7 @@ public class Main {
     }
 
     public static double integration(Function<Double, Double> f, double a, double b) {
-        double step = (b - a) / 100000;
+        double step = (b - a) / 10000;
         double aVal = f.apply(a);
         double bVal = f.apply(b);
         double funcSum = 0;
