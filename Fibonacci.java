@@ -11,7 +11,7 @@ public class Main {
         if (n == 0) return r2;
         if (n == 1) return r1;
         if (n > 1) return helper(r1, r2 + r1, n - 1);
-        return helper(r1 - r2, r2, n + 1);
+        return helper(r3 + r1, r2, n + 1);
     }
 
     public static long fibonacci(long n) {
