@@ -33,7 +33,7 @@ public class Main {
         return result;
     }
 
-    public static double[] findRoutes(double a, double b, double c) {
+    public static double[] findRoute(double a, double b, double c) {
         double d = Math.sqrt(b * b - 4 * a * c);
         double doubleA = 2 * a;
         double x1 = (-b + d) / doubleA;
