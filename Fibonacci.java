@@ -26,7 +26,7 @@ public class Main {
     }
 
     public static long prodFactorial(long n) {
-        long res = 1;
+        long res = 0;
         for (long i = 1; i <= n; i++) {
             result *= i;
         }
